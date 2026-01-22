@@ -5,8 +5,7 @@ A modern, insightful **Banking / FinTech Transaction Analytics Dashboard** built
 ## 📸 Dashboard Preview
 
 ### Transaction Performance Overview
-![Transaction Performance Overview](screenshots/transaction-overview.png)
-
+https://github.com/Shital9090/Banking_Finance_Transactions/blob/main/Screenshot%202026-01-22%20162029.png
 ### Customer & Payment Behavior Analysis
 ![Customer Payment Behavior](screenshots/customer-payment-analysis.png)
 
