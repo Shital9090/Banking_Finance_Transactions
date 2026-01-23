@@ -41,6 +41,8 @@ Focuses on how customers pay, account usage, and high-value transaction patterns
 
 ## Dashboard 2: Transaction Performance Overview
 
+![](https://github.com/Shital9090/Banking_Finance_Transactions/blob/main/Transaction%20Performance%20Overview.png)
+
 High-level summary of overall activity, trends, and top customers.
 
 ### Summary KPIs
