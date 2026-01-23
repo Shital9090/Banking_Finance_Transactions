@@ -1,68 +1,84 @@
-# Transaction Performance Dashboard 💰📊
+# Transaction & Customer Analytics Dashboard
 
-A modern, insightful **Banking / FinTech Transaction Analytics Dashboard** built with Power BI (or Tableau/Looker) that provides a 360° view of customer transactions, payment behavior, and business performance.
+📊 Overview of customer behavior, payment patterns, and transaction performance.
 
-## 📸 Dashboard Preview
+This repository contains visualizations and key insights from two main dashboards:
+1. **Customer & Payment Behavior Analysis**
+2. **Transaction Performance Overview**
 
-### Transaction Performance Overview
-https://github.com/Shital9090/Banking_Finance_Transactions/blob/main/Screenshot%202026-01-22%20162029.png
-### Customer & Payment Behavior Analysis
-![Customer Payment Behavior](screenshots/customer-payment-analysis.png)
+## Dashboard 1: Customer & Payment Behavior Analysis
 
-## ✨ Key Features & Insights
+Focuses on how customers pay, account usage, and high-value transaction patterns.
 
-- **Total Transaction Amount**: $251,285,089.48
-- **Total Customers**: 615 Active Customers
-- **Total Transactions**: 1,000
-- **Average Transaction Value**: $251,285
-- **Highest Single Transaction**: $49,986
-
-### Top 10 High-Value Customers
-- Customer **1099** leads with **$2.4M+** in total transactions
-- Top 5 customers account for significant transaction volume
-
-### Transaction Trends (2023–2025)
-- Peak balance in early 2025: **$8.89M**
-- Strong growth trend with seasonal fluctuations
+### Key Metrics
+- **Total Active Customers**: 615
+- **Highest Single Transaction Amount**: $49,986
 
 ### Payment Method Distribution
-- Credit Card: **21.3%**
-- Debit Card: **20.4%**
-- Cash: **20.8%**
-- Net Banking: **20.1%**
-- UPI: **17.4%**
+| Payment Mode   | Percentage |
+|----------------|------------|
+| Cash           | 17.40%     |
+| Credit Card    | 20.80%     |
+| Debit Card     | 21.30%     |
+| Net Banking    | 20.10%     |
+| UPI            | 20.40%     |
 
-### Account Type Performance
-- Savings Account: **$86.1M** (Highest)
-- Current Account: **$83.3M**
-- Credit Account: **$8.06M**
+→ **Insight**: Very balanced distribution — Debit Card slightly leads, showing diverse payment preferences.
 
-## 🚀 Dashboard Highlights
+### Transaction Amount by Account Type
+- Credit  → **$8,059,202.80**
+- Current → **$8,332,405.48** (highest)
+- Savings → **$6,616,798.53**
 
-- Interactive filters by Customer ID, Payment Mode, Date Range
-- Top 10 Customers by Transaction Amount (Bar Chart)
-- Monthly High-Value Transactions Trend
-- Account Balance & Transaction Type Distribution Over Time
+→ **Insight**: Current accounts handle the largest total transaction volume.
 
-## 🛠 Tech Stack
-- Microsoft Power BI (or Tableau / Looker Studio)
-- DAX / Power Query for calculations
-- Clean & modern UI design
+### High-Value Transactions (Monthly Breakdown)
+- Stacked bar chart showing monthly high-value transactions colored by top customer IDs
+- Notable customers contributing to peaks: 1041, 1058, 1190, 1220, 1225, 1511, 1659, 1776, 1929, 1958
+- Visible seasonal spikes in Feb, Apr, Jul, etc.
 
-## 📁 Repository Contains
-- `.pbix` file (Power BI Desktop file)
-- Screenshots folder
-- Sample dataset (if included)
+## Dashboard 2: Transaction Performance Overview
 
-## 👨‍💻 Perfect For
-- FinTech startups
-- Banking analytics teams
-- Data analyst portfolios
-- Business intelligence demonstrations
+High-level summary of overall activity, trends, and top customers.
 
-## ⭐ Star this repo if you find this dashboard useful for your portfolio or inspiration!
+### Summary KPIs
+| Metric                        | Value              |
+|-------------------------------|--------------------|
+| Total Customers               | 615                |
+| Total Transactions            | 1,000              |
+| Total Transaction Amount      | $251,285,089.48    |
+| Average Transaction Value     | $251,285           |
 
-Made with ❤️ for the data community
+### Account Balance Trend Over Time (2023–2025)
+- Line chart showing monthly account balance fluctuations
+- Started ~$8–8.5M in 2023
+- Multiple peaks and dips (lowest observed ~$0.5M in 2025)
+- General downward trend observed over the period
 
----
-**Shital** | Data Analyst | Pune, India
+### Top 10 Customers by Transaction Amount
+| Rank | Customer ID | Amount       |
+|------|-------------|--------------|
+| 1    | 1099        | $2,402,818   |
+| 2    | 1190        | $1,770,648   |
+| 3    | 1872        | $1,721,782   |
+| 4    | 1659        | $1,573,339   |
+| 5    | 1393        | $1,536,696   |
+| 6    | 1958        | $1,504,255   |
+| 7    | 1682        | $1,262,344   |
+| 8    | 1220        | $1,230,881   |
+| 9    | 1039        | $1,200,572   |
+| 10   | 1253        | $1,175,551   |
+
+→ **Insight**: Top customer (1099) significantly outperforms others — potential key account for retention/upsell.
+
+## Business Insights Summary
+- **Balanced payment adoption** across all popular modes (no single dominant channel)
+- **Current accounts** drive the highest transaction volume
+- **High concentration** — top 10 customers represent a large portion of value
+- **Downward balance trend** — may indicate increased spending, withdrawals, or churn risk
+- **High average transaction value** — suggests B2B, high-net-worth, or institutional activity
+
+Feel free to contribute improved visualizations, SQL queries, or Power BI/Tableau files!
+
+## License
+MIT License (or choose your preferred license)
