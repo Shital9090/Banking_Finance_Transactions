@@ -88,3 +88,14 @@ Feel free to contribute improved visualizations, SQL queries, or Power BI/Tablea
 
 ## License
 MIT License (or choose your preferred license)
+
+## 📬 Author
+
+**Shital Kamble**  
+Tableau Project 
+Location:Pune, Maharashtra, India  
+
+- 📧 Email: [shital251103@gmail.com]  
+
+
+⭐ Feel free to star/fork this repo if it helps your learning or job hunt!
