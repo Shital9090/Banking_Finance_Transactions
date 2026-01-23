@@ -1,5 +1,7 @@
 # Transaction & Customer Analytics 
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoqbfNVLowJijAv9rbyYulJJNs_9IhQ4Cvmg&s)
+
 📊 Overview of customer behavior, payment patterns, and transaction performance.
 
 This repository contains visualizations and key insights from two main dashboards:
