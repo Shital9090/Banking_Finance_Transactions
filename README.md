@@ -1,4 +1,4 @@
-# Transaction & Customer Analytics Dashboard
+# Transaction & Customer Analytics 
 
 📊 Overview of customer behavior, payment patterns, and transaction performance.
 
