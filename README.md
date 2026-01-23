@@ -8,6 +8,8 @@ This repository contains visualizations and key insights from two main dashboard
 
 ## Dashboard 1: Customer & Payment Behavior Analysis
 
+![](https://github.com/Shital9090/Banking_Finance_Transactions/blob/main/Customer%20%26%20Payment%20Behavior%20Analysis.png)
+
 Focuses on how customers pay, account usage, and high-value transaction patterns.
 
 ### Key Metrics
